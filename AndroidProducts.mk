@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019 Android Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a70q.mk
+    $(LOCAL_DIR)/aosp_a70q.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a70q-user \
-    lineage_a70q-userdebug \
-    lineage_a70q-eng
+    aosp_a70q-user \
+    aosp_a70q-userdebug \
+    aosp_a70q-eng
